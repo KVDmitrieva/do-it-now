@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Do It Now</string>
+    <string name="but_daily">DAILY ROUTINE</string>
+    <string name="but_project">PROJECTS</string>
+    <string name="but_list">LISTS</string>
+</resources>
