@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class List extends AppCompatActivity {
 
-    Button back;
+    Button back, add;
     Intent intent;
 
     @Override
@@ -22,6 +22,17 @@ public class List extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 intent = new Intent(List.this, MainMenu.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
+
+        add = findViewById(R.id.add3);
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(List.this, AddListActivity.class);
                 startActivity(intent);
                 finish();
 
